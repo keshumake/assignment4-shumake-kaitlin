@@ -1,0 +1,10 @@
+header {
+    background-color: #999999;
+    padding: 50px;
+    text-align: center;
+}
+
+li {
+    display: inline;
+    text-decoration: underline;
+}
