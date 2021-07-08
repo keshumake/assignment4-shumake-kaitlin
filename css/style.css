@@ -1,10 +1,43 @@
-header {
-    background-color: #999999;
-    padding: 50px;
+body {
+    max-width: 900px;
+}
+
+.navigation {
     text-align: center;
+    background-color: gray;
+    padding: 35px;
 }
 
 li {
     display: inline;
-    text-decoration: underline;
+    text-decoration: none;
+    font-size: 16px;
+    border-bottom: 2px;
+    word-spacing: 10px;
+}
+
+ul {
+    word-spacing: 25px;
+}
+
+h1, li {
+  font-family: 'Georgia', serif;
+}
+
+h1 {
+    font-size: 30px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+img {
+  height: 600px;
+  float: left;
+  padding-right: 10px;
+}
+
+.container {
+  text-align: justify;
+  width: 850px;
+  align-items: center;
 }
